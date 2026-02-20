@@ -1,0 +1,19 @@
+{
+  "name": "orcha",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": { "orcha": "./dist/index.js" },
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "ws": "^8"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "tsx": "^4",
+    "@types/node": "^20",
+    "@types/ws": "^8"
+  }
+}

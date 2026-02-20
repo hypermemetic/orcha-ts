@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "paths": {
+      "../plexus-sandbox-ts/lib/*": ["../plexus-sandbox-ts/lib/*"]
+    }
+  },
+  "include": ["src"]
+}
